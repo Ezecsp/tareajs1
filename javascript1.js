@@ -1,4 +1,5 @@
 //Punto 1
+
 function Piramide(numero) {
     for (let i = 1; i <= numero; i++) {
       let fila = "";
@@ -10,11 +11,13 @@ function Piramide(numero) {
   }
 
 //Punto 2
+
 function coinciden(array1, array2){
     return array1.filter(elemento => array2.includes(elemento));
 }
 
-//Punto 3
+//Punto 3.1 3.2 3.3
+
 class Producto {
   constructor(nombre, precio, unidades) {
     this.nombre = nombre;
